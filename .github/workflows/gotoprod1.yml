@@ -34,12 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          wc -l ./*.html
-          wc -l ./*.css  
-          wc -l ./*.js  
+          wc -l ./frontend/*.html
+          wc -l ./frontend/*.css  
+          wc -l ./frontend/*.js  
       # Runs a set of commands using the runners shell
       - name: Lignes partie serveur
         run: |
           echo Add other actions to build,
           echo test, and deploy your project. 
-          wc -l ./server1/*.js  
+          wc -l ./backend/*.js  
