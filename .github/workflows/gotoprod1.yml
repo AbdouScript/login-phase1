@@ -41,7 +41,5 @@ jobs:
       - name: Lignes partie serveur
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
-          wc -l ./server1/*.html
-          wc -l ./server1/*.css  
+          echo test, and deploy your project. 
           wc -l ./server1/*.js  
