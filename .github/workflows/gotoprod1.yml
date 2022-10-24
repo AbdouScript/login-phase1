@@ -30,10 +30,18 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Lignes partie client
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
           wc -l ./*.html
           wc -l ./*.css  
           wc -l ./*.js  
+      # Runs a set of commands using the runners shell
+      - name: Lignes partie serveur
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
+          wc -l ./server1/*.html
+          wc -l ./server1/*.css  
+          wc -l ./server1/*.js  
